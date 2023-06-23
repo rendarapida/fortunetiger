@@ -1,0 +1,290 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tigrão do Pix</title>
+        <link rel="preload" href="https://scripts.converteai.net/7ba8c62e-1963-4c82-93aa-071724a232c9/players/648138abe1415d0009ce0696/player.js" as="script">
+        <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
+        <link rel="preload" href="https://images.converteai.net/7ba8c62e-1963-4c82-93aa-071724a232c9/players/648138abe1415d0009ce0696/thumbnail.jpg" as="image">
+        <link rel="preload" href="https://cdn.converteai.net/7ba8c62e-1963-4c82-93aa-071724a232c9/6481389776faa1000916a009/main.m3u8" as="fetch">
+        <link rel="dns-prefetch" href="https://cdn.converteai.net">
+        <link rel="dns-prefetch" href="https://scripts.converteai.net">
+        <link rel="dns-prefetch" href="https://images.converteai.net">
+        <link rel="dns-prefetch" href="https://api.vturb.com.br">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- Meta Pixel Code -->
+        <script>
+          !function(f,b,e,v,n,t,s)
+          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '620694639990323');
+          fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+          src="https://www.facebook.com/tr?id=620694639990323&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Meta Pixel Code -->
+        <!-- Meta Pixel Code -->
+        <script>
+          !function(f,b,e,v,n,t,s)
+          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '956534625620134');
+          fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+          src="https://www.facebook.com/tr?id=956534625620134&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Meta Pixel Code -->
+           <script>
+        !function (e, t) { "object" == typeof exports && "object" == typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define([], t) : "object" == typeof exports ? exports.install = t() : e.install = t() }(window, (function () { return function (e) { var t = {}; function n(r) { if (t[r]) return t[r].exports; var o = t[r] = { i: r, l: !1, exports: {} }; return e[r].call(o.exports, o, o.exports, n), o.l = !0, o.exports } return n.m = e, n.c = t, n.d = function (e, t, r) { n.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: r }) }, n.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, n.t = function (e, t) { if (1 & t && (e = n(e)), 8 & t) return e; if (4 & t && "object" == typeof e && e && e.__esModule) return e; var r = Object.create(null); if (n.r(r), Object.defineProperty(r, "default", { enumerable: !0, value: e }), 2 & t && "string" != typeof e) for (var o in e) n.d(r, o, function (t) { return e[t] }.bind(null, o)); return r }, n.n = function (e) { var t = e && e.__esModule ? function () { return e.default } : function () { return e }; return n.d(t, "a", t), t }, n.o = function (e, t) { return Object.prototype.hasOwnProperty.call(e, t) }, n.p = "", n(n.s = 0) }([function (e, t, n) { "use strict"; var r = this && this.__spreadArray || function (e, t, n) { if (n || 2 === arguments.length) for (var r, o = 0, i = t.length; o < i; o++)!r && o in t || (r || (r = Array.prototype.slice.call(t, 0, o)), r[o] = t[o]); return e.concat(r || Array.prototype.slice.call(t)) }; !function (e) { var t = window; t.KwaiAnalyticsObject = e, t[e] = t[e] || []; var n = t[e]; n.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie"]; var o = function (e, t) { e[t] = function () { var n = Array.from(arguments), o = r([t], n, !0); e.push(o) } }; n.methods.forEach((function (e) { o(n, e) })), n.instance = function (e) { var t = n._i[e] || []; return n.methods.forEach((function (e) { o(t, e) })), t }, n.load = function (t, r) { n._i = n._i || {}, n._i[t] = [], n._i[t]._u = "https://s1.kwai.net/kos/s101/nlav11187/pixel/events.js", n._t = n._t || {}, n._t[t] = +new Date, n._o = n._o || {}, n._o[t] = r || {}; var o = document.createElement("script"); o.type = "text/javascript", o.async = !0, o.src = "https://s1.kwai.net/kos/s101/nlav11187/pixel/events.js?sdkid=" + t + "&lib=" + e; var i = document.getElementsByTagName("script")[0]; i.parentNode.insertBefore(o, i) } }("kwaiq") }]) }));
+    </script>
+    <script>
+        kwaiq.load('452125129717066503');
+        kwaiq.page();
+        kwaiq.instance('452125129717066503').track('contentView')
+    </script>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@100;300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: black;
+        }
+        @media screen and (min-width: 1024px) {
+            .container {
+                background-image: url('./assets/background-desktop-radar.jpg') !important;
+                padding: 140px 50px 50px 190px !important;
+                background-size: cover !important;
+                align-items: normal !important;
+            }
+
+            .content {
+                width: 800px !important;
+            }
+
+            .container .content .title {
+                font-size: 28px !important;
+                line-height: 42px !important;
+            }
+
+            .container .title {
+                font-size: 65px !important;
+                line-height: 65px !important;
+                max-width: 90% !important;
+            }
+
+            .checkout {
+                width: 800px !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .container .description {
+                font-size: 42px !important;
+            }
+
+            .container .vsl {
+                width: 800px !important;
+            }
+
+            .container .content .depoimentos .vsl {
+                width: 300px !important;
+            }
+
+            .container .content .checkout {
+                width: 380px !important;
+            }
+
+            .radar {
+                width: 114px !important;
+                height: 60px !important;
+            }
+
+            .footer {
+                margin-top: 40px !important;
+            }
+        }
+        .header {
+            background: #FF0000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px 10px;
+        }
+        .header .title {
+            padding: 0;
+            font-size: 14px;
+            color: black;
+            text-align: center;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url('./assets/background-radar-milionario.png');
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 300px 20px 50px 20px;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .container .content .garantia {
+            width: 100%;
+            bottom: 0;
+        }
+        .container .content .title {
+            font-size: 24px;
+            color: #1BDF18;
+            line-height: 1.2em;
+            text-align: center;
+            margin: 60px 0 10px 0;
+            font-weight: bold;
+        }
+        .container .content .subtitle {
+            font-size: 16px;
+            color: #1BDF18;
+            font-weight: 600;
+            line-height: 1.2em;
+            text-align: center;
+            margin: 14px 0 0 0;
+            font-weight: bold;
+        }
+        .container .title {
+            font-size: 42px;
+            line-height: 42px;
+            text-transform: uppercase;
+            text-align: left;
+            color: white;
+            font-weight: 800;
+            margin: 0;
+        }
+        .container .subheadline {
+            color: white;
+            font-weight: bold;
+            margin: 0 0 5px 0;
+        }
+        .container .price-discount {
+            color: white;
+            font-size: 32px;
+            text-align: center;
+            font-weight: bold;
+            margin: 20px 0 15px 0;
+        }
+        .container .description {
+            font-size: 20px;
+            color: white;
+            text-align: left;
+            font-weight: 500;
+            margin: 0;
+        }
+        .container .vsl{
+            width: 100%;
+            margin: 15px 0 10px 0;
+        }
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            padding: 0 20px 10px 40px;
+        }
+        .footer .atention {
+            width: 114px;
+            height: 114px;
+        }
+        .footer .radar {
+            width: 30%;
+        }
+        .footer .copyright {
+            font-size: 15px;
+            color: white;
+            text-align: center;
+        }
+        .checkout {
+            font-size:18px;
+            font-weight:700;
+            text-transform:uppercase;
+            text-shadow:43px 32px 28px #22C638;
+            background: #1b9e2d;
+            border-radius:40px;
+            box-shadow:0 0 20px 0 #22C638;
+            padding:18px;
+            color:white;
+            text-decoration:none;
+            margin:1.5vw 12px 10px 12px;
+            text-align:center;
+            box-sizing:border-box;
+            -webkit-animation:pulsing 1s infinite cubic-bezier(.77,0,0,1);
+            -moz-animation:pulsing 1s infinite cubic-bezier(.77,0,0,1);
+            -ms-animation:pulsing 1s infinite cubic-bezier(0.77,0,0,1);
+            animation:pulsing 1s infinite cubic-bezier(.77,0,0,1);
+        }
+        @-webkit-keyframes pulsing{to{box-shadow:0 0 0 30px rgba(232,76,61,0)}}@-moz-keyframes pulsing{to{box-shadow:0 0 0 30px rgba(232,76,61,0)}}@-ms-keyframes pulsing{to{box-shadow:0 0 0 30px rgba(232,76,61,0)}}@keyframes pulsing{to{box-shadow:0 0 0 30px rgba(232,76,61,0)}}
+    </style>
+    <body>
+        <div class="container">
+            <p class="title">Novo <font color="#ffd409">App Hackeia</font> o jogo do <font color="#ffd409">Tigre</font></p>
+            <p class="description">e faz pessoas comuns lucrarem muito</p>
+            <div class="vsl">
+                <div id="vid_648138abe1415d0009ce0696" style="position:relative;width:100%;padding: 56.54450261780105% 0 0;"><img id="thumb_648138abe1415d0009ce0696" src="https://images.converteai.net/7ba8c62e-1963-4c82-93aa-071724a232c9/players/648138abe1415d0009ce0696/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_648138abe1415d0009ce0696" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_648138abe1415d0009ce0696">var s=document.createElement("script");s.src="https://scripts.converteai.net/7ba8c62e-1963-4c82-93aa-071724a232c9/players/648138abe1415d0009ce0696/player.js",s.async=!0,document.head.appendChild(s);</script>
+            </div>
+            <!-- <a class="checkout">Somente hoje de R$197 por R$9,90</a> -->
+        </div>
+    </body>
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const utm_source = urlParams.get('utm_source') ? urlParams.get('utm_source') : '';
+        const utm_campaign = urlParams.get('utm_campaign') ? urlParams.get('utm_campaign') : '';
+        const utm_medium = urlParams.get('utm_medium') ? urlParams.get('utm_medium') : '';
+        const utm_content = urlParams.get('utm_content') ? urlParams.get('utm_content') : '';
+        const utm_term = urlParams.get('utm_term') ? urlParams.get('utm_term') : '';
+        
+        const link_checkout = `https://go.perfectpay.com.br/PPU38CM5L24?utm_source=${utm_source}&utm_campaign=${utm_campaign}&utm_medium=${utm_medium}&utm_content=${utm_content}&utm_term=${utm_term}`;
+        
+        function adicionarListenerAoBotao() {
+            const meuBotao = document.querySelector('.smartplayer-call-action--link');
+            meuBotao.addEventListener('click', () => {
+                kwaiq.instance('452125129717066503').track('addToCart')
+            });
+        }
+
+        function verificarBotaoCriado() {
+            const meuBotao = document.querySelector('.smartplayer-call-action--link');
+            if (meuBotao) {
+                meuBotao.href = link_checkout
+                adicionarListenerAoBotao();
+                clearInterval(intervalId);
+            }
+        }
+
+    const intervalId = setInterval(verificarBotaoCriado, 500);
+    // var div_href = Array.from(document.getElementsByClassName("checkout"));
+    // div_href.forEach((div => { div.href = link_checkout }));
+    </script>
+    <script>
+        var query=location.search.slice(1),back_redirect_back_link=`https://tigredafortuna.com/backtigre/?utm_source=${utm_source}&utm_campaign=${utm_campaign}&utm_medium=${utm_medium}&utm_content=${utm_content}&utm_term=${utm_term}`;history.pushState({},"",location.href),history.pushState({},"",location.href),window.onpopstate=function(){setTimeout(function(){location.href=back_redirect_back_link},1)};
+    </script>
+</html>
